@@ -64,24 +64,24 @@ public class Main {
         double breakfastkg = breakfast / 1000.0;
         System.out.println("Общий вес завтрака в килограммах равен " + breakfastkg + " килограмм");
 
-        int weightspotrsmen250gr = (7 * 1000) / 250;
-        System.out.println("Потребуется " + weightspotrsmen250gr + " дней, если терять в день по 250 грамм");
-        int weightsportsmen500gr = (7 * 1000) / 500;
-        System.out.println("Потребуется " + weightsportsmen500gr + " дней, если терять в день по 500 грамм");
-        int weightmidleday = (weightspotrsmen250gr + weightsportsmen500gr) / 2;
-        System.out.println("В среднем для похудения потребуется " + weightmidleday + " дней");
+        int weight250Gr = (7 * 1000) / 250;
+        System.out.println("Потребуется " + weight250Gr + " дней, если терять в день по 250 грамм");
+        int weight500Gr = (7 * 1000) / 500;
+        System.out.println("Потребуется " + weight500Gr + " дней, если терять в день по 500 грамм");
+        int weightMidleday = (weight250Gr + weight500Gr) / 2;
+        System.out.println("В среднем для похудения потребуется " + weightMidleday + " дней");
 
-        double masha10salary = (67760 / 100.0) * 10 + 67760;
-        System.out.println(masha10salary);
-        double mashayears = (masha10salary * 12) - (67760 * 12);
-        System.out.println("Маша теперь получает " + masha10salary + " рублей. Годовой доход вырос на " + mashayears + " рублей");
-        double denis10salary = (83690 / 100.0) * 10 + 83690;
-        System.out.println(denis10salary);
-        double denisyears = (denis10salary * 12) - (83690 * 12);
-        System.out.println("Денис теперь получает " + denis10salary + " рублей. Годовой доход вырос на " + denisyears + " рублей");
-        double kristina10salary = (76230 / 100.0) * 10 + 76230;
-        System.out.println(kristina10salary);
-        double kristinayears = (kristina10salary * 12) - (76230 * 12);
-        System.out.println("Кристина теперь получает " + kristina10salary + " рублей. Годовой доход вырос на " + kristinayears + " рублей");
+        double teacheronesalary = (67760 / 100.0) * 10 + 67760;
+        System.out.println(teacheronesalary);
+        double teacheoneryears = (teacheronesalary * 12) - (67760 * 12);
+        System.out.println("Маша теперь получает " + teacheronesalary + " рублей. Годовой доход вырос на " + teacheoneryears + " рублей");
+        double teachertwosalary = (83690 / 100.0) * 10 + 83690;
+        System.out.println(teachertwosalary);
+        double teachertwoyears = (teachertwosalary * 12) - (83690 * 12);
+        System.out.println("Денис теперь получает " + teachertwosalary + " рублей. Годовой доход вырос на " + teachertwoyears + " рублей");
+        double teacherthreesalary = (76230 / 100.0) * 10 + 76230;
+        System.out.println(teacherthreesalary);
+        double teacherthreeyears = (teacherthreesalary * 12) - (76230 * 12);
+        System.out.println("Кристина теперь получает " + teacherthreesalary + " рублей. Годовой доход вырос на " + teacherthreeyears + " рублей");
     }
 }
